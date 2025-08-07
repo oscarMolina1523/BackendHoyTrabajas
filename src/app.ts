@@ -1,12 +1,14 @@
 import express from 'express';
 import productRoutes from './routes/productRoutes';
 import cartRoutes from './routes/cartRoutes';
+import cors from 'cors';
 
 import swaggerUi from 'swagger-ui-express';
 import { swaggerSpec } from './docs/swagger';
 const PORT = process.env.PORT || 3000;
-
 const app = express();
+app.use(express.urlencoded({ extended: false }));
+app.use(cors())
 
 app.use(express.json());
 
