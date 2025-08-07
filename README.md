@@ -2,7 +2,29 @@
 
 ###
 
-<p align="left">Proyecto backend hecho con Nodejs  + Express, TypeScript y documentación con Swagger, desplegado fácilmente en Vercel para acceso desde la nube.<br><br>Link de la API: https://backendhoytrabajas.vercel.app/</p>
+<div align="center">
+  <img height="300" src="https://i.ibb.co/mVcZdtVk/swagger.png"  />
+</div>
+
+###
+
+<p align="left">Esta es una API RESTful desarrollada con Node.js, Express y TypeScript. Gestiona un catálogo estático de productos y permite simular un carrito de compras, con almacenamiento en memoria y documentación integrada con Swagger.<br><br>Link de la API: https://backendhoytrabajas.vercel.app/</p>
+
+###
+
+<h2 align="left">⚙️ ¿Por qué Node.js + Express + TypeScript?</h2>
+
+###
+
+<p align="left">1. Node.js es ideal para construir APIs rápidas, ligeras y eficientes, aprovechando su modelo asincrónico y basado en eventos.<br><br>2. Express es un framework minimalista que simplifica la creación de rutas y middleware.<br><br>3. TypeScript proporciona tipado estático, facilitando el mantenimiento, la escalabilidad y la detección temprana de errores.</p>
+
+###
+
+<h2 align="left">💡 Descripción de la solución</h2>
+
+###
+
+<p align="left">La API cuenta con los siguientes endpoints:<br><br>GET /api/products → Lista fija de productos.<br><br>POST /api/cart → Agrega un producto al carrito (en memoria).<br><br>GET /api/cart → Devuelve el contenido del carrito actual.<br><br>GET /api-docs → Documentación interactiva con Swagger.<br><br>El carrito se mantiene en memoria, lo que simplifica la lógica y permite ejecutar sin base de datos.</p>
 
 ###
 
@@ -58,6 +80,6 @@
 
 ###
 
-<p align="left">Oscar Molina<br><br>GitHub: @oscarMolina1523</p>
+<p align="left">Oscar Molina<br><br>💼 Desarrollador Web<br><br>GitHub: @oscarMolina1523<br><br>linkedin: https://www.linkedin.com/in/oscar-molina-916195309</p>
 
 ###
