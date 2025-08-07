@@ -17,7 +17,7 @@ const router = Router();
  *             type: object
  *             properties:
  *               productId:
- *                 type: integer
+ *                 type: string
  *     responses:
  *       200:
  *         description: Producto agregado
