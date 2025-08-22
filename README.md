@@ -47,18 +47,33 @@
 <h2 align="left">🛠️ Instalación Local</h2>
 
 ###
+```bash
+# Clonar el repositorio
+git clone https://github.com/oscarMolina1523/BackendHoyTrabajas.git
 
-<p align="left"># Clonar el repositorio<br>git clone https://github.com/oscarMolina1523/BackendHoyTrabajas.git<br><br># navegar a la carpeta<br>cd BackendHoyTrabajas<br><br># Instalar dependencias<br>npm install<br><br># Correr el proyecto<br>npm run dev</p>
+# navegar a la carpeta
+cd BackendHoyTrabajas
 
-###
+# Instalar dependencias
+npm install
 
+# Correr el proyecto
+npm run dev
+
+```
 <h2 align="left">🔧 Scripts</h2>
 
 ###
+```bash
+#Comando---->Descripción
+npm run dev #Inicia el servidor en modo desarrollo (ts-node-dev)
 
-<p align="left">Comando---->Descripción<br>npm run dev---->Inicia el servidor en modo desarrollo (ts-node-dev)<br>npm run build---->	Compila los archivos TypeScript a JavaScript<br>npm start---->	Ejecuta el servidor desde dist/app.js</p>
+npm run build #Compila los archivos TypeScript a JavaScript
 
-###
+npm start #Ejecuta el servidor desde dist/app.js
+
+
+```
 
 <h2 align="left">📚 Documentación Swagger</h2>
 
